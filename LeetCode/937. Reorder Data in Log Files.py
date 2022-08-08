@@ -9,6 +9,6 @@ class Solution:
                 dig.append(a)
             else:
                 let.append(a)
-        let.sort(key = lambda x: (x.split()[1:], x.split()[0]))        
+        let.sort(key = lambda x: (x.split()[1:], x.split()[0])) # 람다 표현식 다시 공부         
         return let+dig
 
